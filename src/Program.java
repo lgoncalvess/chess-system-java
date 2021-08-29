@@ -1,11 +1,10 @@
-import boardgame.Position;
+import boardgame.Board;
 
 public class Program {
 
 	public static void main(String[] args) {
 
-		Position po = new Position(3,4);
-		System.out.println(po);
+		Board board = new Board(8,8);
 	}
 
 }
